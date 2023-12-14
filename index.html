@@ -101,6 +101,13 @@
           margin-bottom: 3rem;
         }
       }
+
+      @media (max-height: 485px) and (orientation: landscape),
+        (max-height: 610px) and (orientation: portrait) {
+        .copyright {
+          position: static;
+        }
+      }
     </style>
   </head>
   <body>
@@ -118,7 +125,11 @@
       <div class="masthead-content text-white">
         <div class="container-fluid px-4 px-lg-0">
           <div class="logo">
-            <img src="./assets/img/bezt-logo-white.png" width="130" />
+            <img
+              src="./assets/img/bezt-logo-white.png"
+              width="130"
+              alt="bezt"
+            />
           </div>
           <h1 class="lh-sm mb-4">
             Home to a disruptive <br />game changer in the making
