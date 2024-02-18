@@ -1,0 +1,16 @@
+{
+  "name": "bezt",
+  "short_name": "bezt",
+  "description": "Home to a disruptive game changer in the making",
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./assets/img/bezt-logo-192.svg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF"
+}
