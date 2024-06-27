@@ -1,4 +1,4 @@
-const CACHE_NAME = "bezt-pwa-cache-v1.0";
+const CACHE_NAME = "bezt-pwa-cache-v2.0";
 const urlsToCache = [
   "/",
   "/index.html",
@@ -6,10 +6,10 @@ const urlsToCache = [
   "/assets/img/bezt-logo-192.svg",
   "/assets/img/bezt-logo-dark.png",
   "/assets/img/bezt-logo-white.png",
-  "/assets/img/bg-mobile-fallback.jpg",
+  // "/assets/img/bg-mobile-fallback.jpg",
   "/assets/img/email.png",
   "/assets/img/og-image.jpeg",
-  "/assets/mp4/bg.mp4",
+  // "/assets/mp4/bg.mp4",
 ];
 
 // caching
